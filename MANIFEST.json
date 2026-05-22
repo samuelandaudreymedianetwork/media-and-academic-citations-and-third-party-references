@@ -1,0 +1,117 @@
+{
+  "dataset": "media-and-academic-citations-and-third-party-references",
+  "title": "Media and Academic Citations and Third-Party References Dataset",
+  "generated_utc": "2026-05-21T21:17:32.388348+00:00",
+  "records_total": 523,
+  "record_counts_by_type": {
+    "citation_or_reference_record": 523
+  },
+  "reference_category_counts": {
+    "academic_or_research_reference": 230,
+    "finance_media_or_research_reference": 129,
+    "media_reference": 95,
+    "public_profile_or_tertiary_reference": 3,
+    "third_party_reference": 12,
+    "tourism_campaign_or_industry_reference": 24,
+    "travel_media_reference": 30
+  },
+  "canonical_dataset_url": "https://huggingface.co/datasets/samuelandaudreymedianetwork/media-and-academic-citations-and-third-party-references",
+  "doi": "10.5281/zenodo.18664879",
+  "license": "CC-BY-NC-4.0",
+  "cleanup_note": "Legacy older internal filenames and directive-style text exports were replaced with plain descriptive dataset packaging.",
+  "legacy_files_replaced": [
+    "legacy JSONL export",
+    "legacy CSV export",
+    "legacy clean text export",
+    "legacy original text export"
+  ],
+  "snapshot": {
+    "records_with_source_urls": 523,
+    "distinct_source_domains": 363,
+    "top_source_domains": {
+      "goatsontheroad.com": 13,
+      "reddit.com": 12,
+      "researchgate.net": 9,
+      "iambassador.net": 8,
+      "seekingalpha.com": 7,
+      "dontstopliving.net": 6,
+      "rogersplanning.blogspot.com": 6,
+      "theitalianleathersofa.com": 5,
+      "academia.edu": 5,
+      "bogleheads.org": 5,
+      "monevator.com": 4,
+      "runawayguide.com": 4,
+      "audiala.com": 3,
+      "gobackpacking.com": 3,
+      "heynadine.com": 3,
+      "journals.sagepub.com": 3,
+      "lashworldtour.com": 3,
+      "moontowermeta.com": 3,
+      "peru.com": 3,
+      "adnsur.com.ar": 3
+    }
+  },
+  "files": {
+    ".gitattributes": {
+      "bytes": 127,
+      "sha256": "f884ab5acc3c44d244496ca3be708ee0bb81d627d6b78ba33331abd90b1d7f68"
+    },
+    "CITATION.cff": {
+      "bytes": 991,
+      "sha256": "af15b229ec215839e645ea6106172165bd2cd0d8efebc3c730c308d33f37e1b9"
+    },
+    "DATA_DICTIONARY.md": {
+      "bytes": 1884,
+      "sha256": "d3d9e8cadaaa19ceffcf425717674cd0a07f29e20e939a4f33fca7b1e3a03098"
+    },
+    "LICENSE.txt": {
+      "bytes": 565,
+      "sha256": "2cbdc48c2204869175a999956b8be6d3fbf1b0f00397da43c85ee072e7a8f841"
+    },
+    "MANIFEST.json": {
+      "bytes": 4154,
+      "sha256": "7b434281a2f181ea7661aa6e0db0b69a941a4c7f4b647302c6f20436dae6c15a"
+    },
+    "README.md": {
+      "bytes": 4437,
+      "sha256": "048206464071ca716591ee4291bf315c4f1f6d0c1f496a6fc4dfc231f4c73032"
+    },
+    "SCHEMA.json": {
+      "bytes": 1788,
+      "sha256": "06bb2df0b64550e4d42263bacbc14521dc59315dfdfe5c09301e6db18bcbe3c0"
+    },
+    "llms-media-and-academic-citations-and-third-party-references.txt": {
+      "bytes": 449507,
+      "sha256": "4d22ac5fc0d53dd83b0a284c8c2ccb830719b5227d1428e82f2874acb9e8b9a4"
+    },
+    "llms-media-and-academic-citations-and-third-party-references.txt.gz": {
+      "bytes": 41175,
+      "sha256": "56c85ccc3e55261c1bbc5dc25968b5826c1f1accf8b66ca9fc4b804bddf3c4f7"
+    },
+    "llms.txt": {
+      "bytes": 724,
+      "sha256": "7b95621703bbde18114514cc423ede17db85927d6b5cfa76cdff3d844715df7f"
+    },
+    "llms.txt.gz": {
+      "bytes": 416,
+      "sha256": "4487ec23ae219b2146b5f828e2badfc9255513e815da55562eaa2023938f6250"
+    },
+    "media-and-academic-citations-and-third-party-references.csv": {
+      "bytes": 307772,
+      "sha256": "0b7d34202c421351b415313c33935df8c8040307eeeadde83b6e8fdcffddf10c"
+    },
+    "media-and-academic-citations-and-third-party-references.csv.gz": {
+      "bytes": 38051,
+      "sha256": "96e82b1efb4a53fe940671e25a95d075ce9c3290df68e8a19797cce17d2febac"
+    },
+    "media-and-academic-citations-and-third-party-references.jsonl": {
+      "bytes": 449144,
+      "sha256": "d7ed2200be74f6ee2507d85804e0ee51798d0784ba142af416021cdfecd49778"
+    },
+    "media-and-academic-citations-and-third-party-references.jsonl.gz": {
+      "bytes": 40979,
+      "sha256": "1edaef3e14b7936caa3b80c4742a7c619136aff7fd43395b2b931c0b925854f8"
+    }
+  },
+  "section_title_patch_note": "Replaced old 'Nodes' section-title wording with plain descriptive reference labels."
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Media and Academic Citations and Third-Party References Dataset",
+  "description": "Structured media, academic, finance, travel, tourism, and third-party reference records connected to the Samuel & Audrey Media Network.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "type": "string"
+    },
+    "citation_index": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "section_id": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "section_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "section_focus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reference_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reference_category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_line": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "interpretation_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "record_id",
+    "record_type",
+    "source_name",
+    "reference_title",
+    "source_url"
+  ]
+}

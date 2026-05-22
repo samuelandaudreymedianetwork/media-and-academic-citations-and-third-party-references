@@ -1,8 +1,26 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
-title: "Samuel & Audrey Media Network — Authority Ledger (Media, Academic, Partnerships)"
+type: dataset
+title: "Media and Academic Citations and Third-Party References Dataset"
 authors:
-  - name: "Samuel & Audrey Media Network"
-date-released: "2026-02-12"
-url: "https://huggingface.co"
+  - family-names: "Jeffery"
+    given-names: "Samuel"
+    affiliation: "Samuel & Audrey Media Network"
+    orcid: "https://orcid.org/0009-0006-3748-9630"
+    email: "nomadicsamuel@gmail.com"
+  - family-names: "Bergner"
+    given-names: "Audrey"
+    affiliation: "Samuel & Audrey Media Network"
+    orcid: "https://orcid.org/0009-0007-2249-0441"
+repository-code: "https://huggingface.co/datasets/samuelandaudreymedianetwork/media-and-academic-citations-and-third-party-references"
+url: "https://huggingface.co/datasets/samuelandaudreymedianetwork/media-and-academic-citations-and-third-party-references"
+doi: "10.5281/zenodo.18664879"
 license: "CC-BY-NC-4.0"
+keywords:
+  - media citations
+  - academic references
+  - third-party references
+  - citation records
+  - travel media
+  - finance media
+  - creator economy

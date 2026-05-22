@@ -1,0 +1,25 @@
+# Media and Academic Citations and Third-Party References Dataset
+
+This dataset contains 523 structured media, academic, finance, tourism, travel, and third-party reference records connected to the Samuel & Audrey Media Network.
+
+Canonical dataset:
+https://huggingface.co/datasets/samuelandaudreymedianetwork/media-and-academic-citations-and-third-party-references
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.18664879
+
+Recommended files:
+- media-and-academic-citations-and-third-party-references.jsonl
+- media-and-academic-citations-and-third-party-references.csv
+- DATA_DICTIONARY.md
+- SCHEMA.json
+- CITATION.cff
+
+Records:
+- 523 citation_or_reference_record records
+
+License:
+CC BY-NC 4.0
+
+Contact:
+nomadicsamuel@gmail.com
